@@ -16,6 +16,7 @@ div {
 div li {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 div li + li {
@@ -30,7 +31,7 @@ button {
   cursor: pointer;
   margin-top: 15px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 14px;  
 }
 
 div li button {
